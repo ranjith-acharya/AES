@@ -1,0 +1,131 @@
+*{font-family: 'Raleway', sans-serif;}
+::-webkit-scrollbar{width:8px;}::-webkit-scrollbar-thumb{background:#ccc;}
+#adminMailbox{border:2px solid #eee;border-top-style:none;border-left-style:none;border-right-style:none;outline:none;}
+#adminMailbox:focus{border-color:#1976D2;transition:.5s;}
+#adminPassbox{border:2px solid #eee;border-top-style:none;border-left-style:none;border-right-style:none;outline:none;}
+#adminPassbox:focus{border-color:#1976D2;transition:.5s;}
+#adminLogbtn{background:#1976D2;color:#fff;}
+#adminForgotMailbox{border:2px solid #eee;border-top-style:none;border-left-style:none;border-right-style:none;outline:none;}
+#adminForgotMailbox:focus{border-color:#1976D2;transition:.5s;}
+#adminForgotBtn{background:#1976D2;color:#fff;}
+#stdMailbox{border:2px solid #eee;border-top-style:none;border-left-style:none;border-right-style:none;outline:none;}
+#stdMailbox:focus{border-color:#1976D2;transition:.5s;}
+#stdPassbox{border:2px solid #eee;border-top-style:none;border-left-style:none;border-right-style:none;outline:none;}
+#stdPassbox:focus{border-color:#1976D2;transition:.5s;}
+#stdLogbtn{background:#1976D2;color:#fff;}
+#stdForgotMailbox{border:2px solid #eee;border-top-style:none;border-left-style:none;border-right-style:none;outline:none;}
+#stdForgotMailbox:focus{border-color:#1976D2;transition:.5s;}
+#stdForgotBtn{background:#1976D2;color:#fff;}
+#staffMailbox{border:2px solid #eee;border-top-style:none;border-left-style:none;border-right-style:none;outline:none;}
+#staffMailbox:focus{border-color:#1976D2;transition:.5s;}
+#staffPassbox{border:2px solid #eee;border-top-style:none;border-left-style:none;border-right-style:none;outline:none;}
+#staffPassbox:focus{border-color:#1976D2;transition:.5s;}
+#staffLogbtn{background:#1976D2;color:#fff;}
+#staffForgotMailbox{border:2px solid #eee;border-top-style:none;border-left-style:none;border-right-style:none;outline:none;}
+#staffForgotMailbox:focus{border-color:#1976D2;transition:.5s;}
+#staffForgotBtn{background:#1976D2;color:#fff;}
+#portalChange{background:#1976D2;color:#fff;}
+
+#addmissionbox{border:2px solid #eee;border-top-style:none;border-left-style:none;border-right-style:none;outline:none;}
+#addmissionbox:focus{border-color:#1976D2;transition:.5s;}
+#usernamebox{border:2px solid #eee;border-top-style:none;border-left-style:none;border-right-style:none;outline:none;}
+#usernamebox:focus{border-color:#1976D2;transition:.5s;}
+#fnamebox{border:2px solid #eee;border-top-style:none;border-left-style:none;border-right-style:none;outline:none;}
+#fnamebox:focus{border-color:#1976D2;transition:.5s;}
+#lnamebox{border:2px solid #eee;border-top-style:none;border-left-style:none;border-right-style:none;outline:none;}
+#lnamebox:focus{border-color:#1976D2;transition:.5s;}
+#mailbox{border:2px solid #eee;border-top-style:none;border-left-style:none;border-right-style:none;outline:none;}
+#mailbox:focus{border-color:#1976D2;transition:.5s;}
+#passbox{border:2px solid #eee;border-top-style:none;border-left-style:none;border-right-style:none;outline:none;}
+#passbox:focus{border-color:#1976D2;transition:.5s;}
+#addrbox{border:2px solid #eee;border-top-style:none;border-left-style:none;border-right-style:none;outline:none;}
+#addrbox:focus{border-color:#1976D2;transition:.5s;}
+#birthbox{border:2px solid #eee;border-top-style:none;border-left-style:none;border-right-style:none;outline:none;}
+#birthbox:focus{border-color:#1976D2;transition:.5s;}
+#contactbox{border:2px solid #eee;border-top-style:none;border-left-style:none;border-right-style:none;outline:none;}
+#contactbox:focus{border-color:#1976D2;transition:.5s;}
+#branchbox{border:2px solid #eee;border-top-style:none;border-left-style:none;border-right-style:none;outline:none;}
+#branchbox:focus{border-color:#1976D2;transition:.5s;}
+#genderbox{border:2px solid #eee;border-top-style:none;border-left-style:none;border-right-style:none;outline:none;}
+#genderbox:focus{border-color:#1976D2;transition:.5s;}
+#avatarbox{border:2px solid #eee;border-top-style:none;border-left-style:none;border-right-style:none;outline:none;}
+#avatarbox:focus{border-color:#1976D2;transition:.5s;}
+#studentDataSubmit{color:#fff;background:#1976D2;}
+#staffDataSubmit{color:#fff;background:#1976D2;}
+
+#stdFromMail{border-top-style:none;border-left-style:none;border-right-style:none;outline:none;border-color:#1976D2;}
+#stdToMail{border-top-style:none;border-left-style:none;border-right-style:none;outline:none;border-color:#1976D2;}
+#stdToMailDrop{border:2px solid #eee;border-top-style:none;border-left-style:none;border-right-style:none;outline:none;}
+#stdToMailDrop:focus{border-color:#1976D2;transition:.5s;}
+#stdSubject{border:2px solid #eee;border-top-style:none;border-left-style:none;border-right-style:none;outline:none;}
+#stdSubject:focus{border-color:#1976D2;transition:.5s;}
+#stdFeedBack{border:2px solid #eee;border-top-style:none;border-left-style:none;border-right-style:none;outline:none;}
+#stdFeedBack:focus{border-color:#1471D2;transition:.5s;}
+#stdFeedSubmit{color:#fff;background:#1976D2;}
+
+#staffSearch{border:2px solid #eee;border-top-style:none;border-left-style:none;border-right-style:none;outline:none;}
+#staffSearch:focus{border-color:#1976D2;transition:.5s;}
+#staffBtn{color:#fff;background:#1976D2;}
+#stdSearch{border:2px solid #eee;border-top-style:none;border-left-style:none;border-right-style:none;outline:none;}
+#stdSearch:focus{border-color:#1976D2;transition:.5s;}
+#stdBtn{color:#fff;background:#1976D2;}
+
+#stdAddmission{border:2px solid #eee;border-top-style:none;border-left-style:none;border-right-style:none;outline:none;}
+#stdAddmission:focus{border-color:#1976D2;transition:.5s;}
+#stdCAddmission{border:2px solid #eee;border-top-style:none;border-left-style:none;border-right-style:none;outline:none;}
+#stdCAddmission:focus{border-color:#1976D2;transition:.5s;}
+#stdAddress{border:2px solid #eee;border-top-style:none;border-right-style:none;outline:none;}
+#stdAddress:focus{border-color:#1976D2;transition:.5s;}
+#stdContact{border:2px solid #eee;border-top-style:none;border-left-style:none;border-right-style:none;outline:none;}
+#stdContact:focus{border-color:#1976D2;transition:.5s;}
+
+#staffUsername{border:2px solid #eee;border-top-style:none;border-left-style:none;border-right-style:none;outline:none;}
+#staffUsername:focus{border-color:#1976D2;transition:.5s;}
+#staffCUsername{border:2px solid #eee;border-top-style:none;border-left-style:none;border-right-style:none;outline:none;}
+#staffCUsername:focus{border-color:#1976D2;transition:.5s;}
+#staffAddress{border:2px solid #eee;border-top-style:none;border-right-style:none;outline:none;}
+#staffAddress:focus{border-color:#1976D2;transition:.5s;}
+#staffContact{border:2px solid #eee;border-top-style:none;border-left-style:none;border-right-style:none;outline:none;}
+#staffContact:focus{border-color:#1976D2;transition:.5s;}
+
+#std_Addmission{border:2px solid #eee;border-top-style:none;border-left-style:none;border-right-style:none;outline:none;}
+#std_Addmission:focus{border-color:#1976D2;transition:.5s;}
+#bcePractical{border:2px solid #eee;border-top-style:none;border-left-style:none;border-right-style:none;outline:none;}
+#bcePractical:focus{border-color:#1976D2;transition:.5s;}
+#cnExternal{border:2px solid #eee;border-top-style:none;border-left-style:none;border-right-style:none;outline:none;}
+#cnExternal:focus{border-color:#1976D2;transition:.5s;}
+#cnInternal{border:2px solid #eee;border-top-style:none;border-left-style:none;border-right-style:none;outline:none;}
+#cnInternal:focus{border-color:#1976D2;transition:.5s;}
+#cnPractical{border:2px solid #eee;border-top-style:none;border-left-style:none;border-right-style:none;outline:none;}
+#cnPractical:focus{border-color:#1976D2;transition:.5s;}
+#dbmsExternal{border:2px solid #eee;border-top-style:none;border-left-style:none;border-right-style:none;outline:none;}
+#dbmsExternal:focus{border-color:#1976D2;transition:.5s;}
+#dbmsInternal{border:2px solid #eee;border-top-style:none;border-left-style:none;border-right-style:none;outline:none;}
+#dbmsInternal:focus{border-color:#1976D2;transition:.5s;}
+#dbmsPractical{border:2px solid #eee;border-top-style:none;border-left-style:none;border-right-style:none;outline:none;}
+#dbmsPractical:focus{border-color:#1976D2;transition:.5s;}
+#mpExternal{border:2px solid #eee;border-top-style:none;border-left-style:none;border-right-style:none;outline:none;}
+#mpExternal:focus{border-color:#1976D2;transition:.5s;}
+#mpInternal{border:2px solid #eee;border-top-style:none;border-left-style:none;border-right-style:none;outline:none;}
+#mpInternal:focus{border-color:#1976D2;transition:.5s;}
+#mpPractical{border:2px solid #eee;border-top-style:none;border-left-style:none;border-right-style:none;outline:none;}
+#mpPractical:focus{border-color:#1976D2;transition:.5s;}
+#mmExternal{border:2px solid #eee;border-top-style:none;border-left-style:none;border-right-style:none;outline:none;}
+#mmExternal:focus{border-color:#1976D2;transition:.5s;}
+#mmInternal{border:2px solid #eee;border-top-style:none;border-left-style:none;border-right-style:none;outline:none;}
+#mmInternal:focus{border-color:#1976D2;transition:.5s;}
+#tcsExternal{border:2px solid #eee;border-top-style:none;border-left-style:none;border-right-style:none;outline:none;}
+#tcsExternal:focus{border-color:#1976D2;transition:.5s;}
+#tcsInternal{border:2px solid #eee;border-top-style:none;border-left-style:none;border-right-style:none;outline:none;}
+#tcsInternal:focus{border-color:#1976D2;transition:.5s;}
+#wtPractical{border:2px solid #eee;border-top-style:none;border-left-style:none;border-right-style:none;outline:none;}
+#wtPractical:focus{border-color:#1976D2;transition:.5s;}
+#btnSubmitSem5{color:#fff;background:#1976D2;}
+#btnResetSem5{color:#fff;background:#CD201F;}
+
+#stdAddmission5{border:2px solid #eee;border-top-style:none;border-left-style:none;border-right-style:none;outline:none;}
+#stdAddmission5:focus{border-color:#1976D2;transition:.5s;}
+#stdAddmission6{border:2px solid #eee;border-top-style:none;border-left-style:none;border-right-style:none;outline:none;}
+#stdAddmission6:focus{border-color:#1976D2;transition:.5s;}
+#btn5{color:#fff;background:#1976D2;}
+#btn6{color:#fff;background:#1976D2;}

@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html lang="en-IN">
+<head>
+	<title>Student Portal</title>
+	<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="img/portal_icon.png">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script type="text/javascript" language="javascript" src="js/validateStdLogin.js"></script>
+</head><body style="background:#fafafa;">
+<section class="container col-md-4 bg-white" style="margin-top:80px;border-radius:6px;box-shadow:0px 0px 8px rgba(0,0,0,0.1);">
+<br><div class="text-center"><span style="font-size:22px;" class="font-weight-bold">Sign in</span><br>to continue to Student Portal</div><br><br>
+<form class="form container text-center" method="POST" action="php/profile/stdLog.php">
+	<input type="text" placeholder="Enter your E-Mail Address" class="col-md-10" name="stdMail" id="stdMailbox" autofocus><br><br>
+	<input type="password" placeholder="Enter your Password" class="col-md-10" name="stdPass" id="stdPassbox"><br><br>
+	<input type="checkbox" id="stdPasscheck" class="form-check-input" onclick="showPass()">&nbsp;Show Password<br><br>
+	<div class="col-md-10 container"><a class="col-md-3 font-weight-bold link" style="outline:none;" data-toggle="modal" href="#stdForgotpass">Forgot Password?</a><input type="submit" value="Log In" class="btn col-md-3" id="stdLogbtn"></div><br><br>
+</form>
+</section>
+<div class="modal fade bg-dark" id="stdForgotpass">
+	<div class="modal-dialog modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-header">
+				<span class="font-weight-bold lead" style="color:#1976D2;">Student Portal</span>
+				<button class="close lead" data-dismiss="modal">&times;</button>
+			</div>
+			<div class="modal-body">
+				<div class="text-center"><span style="font-size:22px;">Find your email</span><br>Enter your email Address to Recover</div><br><br>
+				<form class="form container text-center" method="post" action="php/forgotStdMail.php">
+					<input type="text" placeholder="Enter your Email Address" class="col-md-10" name="stdForgot" id="stdForgotMailbox"><br><br>
+					<input type="submit" value="Submit" class="btn col-md-3" id="stdForgotBtn">
+				</form>
+			</div>
+		</div>
+	</div>
+</div><br><div class="dropdown container col-md-4">
+<button class="btn dropdown-toggle" data-toggle="dropdown" id="portalChange">Select Portal</button>
+<div class="dropdown-menu">
+<a class="dropdown-item" href="admin.html">Admin Portal</a>
+<a class="dropdown-item" href="staff.html">Staff Portal</a>
+<div class="dropdown-divider"></div>
+<a class="dropdown-item" href="index.html">HOME</a>
+</div>
+</div>
+</body>
+</html>

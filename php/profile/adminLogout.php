@@ -1,0 +1,9 @@
+<?php
+	session_start();
+	session_destroy();
+	unset($_SESSION['userName']);
+	unset($_SESSION['userMail']);
+	unset($_SESSION['userAddress']);
+	unset($_SESSION['userAvatar']);
+	header("location:../../admin.html?AfcNPvBRjkR2Gm9YkHh6bcjGGwo5yp-ksa-rfaKaX9d249OdXuqO_V7N3f6whj47mh3Ki-jIoVo9EoscBILPPCdur50eOgQhnS08lOEtgiCAFw&smuh=62062&lh=Ac_3Aa17kZYZrw22");
+?>
